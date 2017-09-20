@@ -35,6 +35,9 @@ list.
   * `babel-preset-react`
   * `babel-preset-es2015`
   * `babel-plugin-transform-object-rest-spread`
+
+(or use alias `npmi`)
+
 * [ ] Create a `webpack.config.js` file.
   * The entry point should be in frontend, e.g. `entry: 'frontend/entry.jsx'`.
   * The output path should be `'app/assets/javascripts'`.
