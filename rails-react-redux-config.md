@@ -14,6 +14,8 @@ list.
   * `faker`
   * `factory_girl`
 * [ ] `bundle install`
+* [ ] set up and route to StaticPagesController `root`
+* [ ] add `/frontend` folder structure
 * [ ] `git init`
   * Update your `.gitignore`.
     * `node_modules/`
