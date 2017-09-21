@@ -6,6 +6,7 @@ list.
 * [ ] `rails new`
   * Add `--database=postgresql` if using Postgres.
   * Add `--skip-turbolinks` to skip the turbolinks gem.
+
 * [ ] Update your `Gemfile`.
   * `better_errors`
   * `binding_of_caller`
@@ -13,9 +14,20 @@ list.
   * `annotate`
   * `faker`
   * `factory_girl`
+  * `jquery-rails`
+  * `bcrypt`
+
 * [ ] `bundle install`
-* [ ] set up and route to StaticPagesController `root`
-* [ ] add `/frontend` folder structure
+* [ ] set up and route to StaticPagesController `root`.
+* [ ] add `/frontend` folder structure.
+* [ ] modify `assets/javascripts/application.js` to require jquery
+  ```
+  //= require rails-ujs
+  //= require jquery
+  //= require jquery_ujs
+  //= require_tree .
+  ```
+
 * [ ] `git init`
   * Update your `.gitignore`.
     * `node_modules/`
@@ -78,9 +90,7 @@ list.
   ```
 
 * [ ] add a webpack script to `webpack.json`.
-
 * [ ] add a `.babelrc` file.
-
   ```js
   {
     "plugins": ["transform-object-rest-spread"]
@@ -89,3 +99,5 @@ list.
 
 * [ ] `git commit` again (Verify that your `.gitignore` works).
   * `git push` your skeleton.
+
+* [ ] Add entry file and render into root div!
