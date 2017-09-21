@@ -49,6 +49,7 @@ list.
   * `babel-preset-react`
   * `babel-preset-es2015`
   * `babel-plugin-transform-object-rest-spread`
+  * `babel-plugin-transform-class-properties`
 
 (or use alias `npmi`)
 
@@ -89,11 +90,14 @@ list.
   };
   ```
 
-* [ ] add a webpack script to `webpack.json`.
+* [ ] add a webpack script to `package.json`.
 * [ ] add a `.babelrc` file.
   ```js
   {
-    "plugins": ["transform-object-rest-spread"]
+    "plugins": [
+      ["transform-object-rest-spread"],
+      ["transform-class-properties"]
+    ]
   }
   ```
 
