@@ -19,7 +19,6 @@ list.
 
 * [ ] `bundle install`
 * [ ] set up and route to StaticPagesController `root`.
-* [ ] add `/frontend` folder structure.
 * [ ] modify `assets/javascripts/application.js` to require jquery
   ```
   //= require rails-ujs
@@ -36,7 +35,7 @@ list.
 * [ ] `git remote add` the proper remote.
   * `git push -u` the remote.
 * [ ] `npm init --yes` to create a package.json file with the default setup.
-* [ ] Create a frontend folder at the root of your project with an entry file inside of it.
+* [ ] Add a frontend folder at the root of your project with an entry file inside of it.
 * [ ] `npm install --save`
   * `webpack`
   * `react`
